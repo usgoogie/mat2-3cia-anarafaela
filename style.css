@@ -8,9 +8,8 @@
 --botao-inativo: rgb(173, 82, 151);
 --texto-fundo: rbga (58, 55, 94, 0.3);
 }
-body {
+.body {
     background-color: var(--cor-de-fundo);
     color: var(--branca);
     font-family: 'Playfair Display', sans-serif;
-
 }
