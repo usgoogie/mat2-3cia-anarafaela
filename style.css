@@ -46,4 +46,10 @@
     font-size: 16px;
     align-items: center;
     width: 100%
+    border-bottom: 4px solid (var--botao-ativo);100%
+    border-left: 4px solid (var--botao-ativo);100%
+    border-right: 4px solid (var--botao-ativo);100%
+    border-top: none;
+    
+
 }
