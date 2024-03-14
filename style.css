@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
 
 :root {
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
+ 
 --cor-de-fundo: #e8c5c5;
 --rosa: #FF1B82;
 --branco: #ffffff;
@@ -12,4 +13,37 @@
     background-color: var(--cor-de-fundo);
     color: var(--branca);
     font-family: 'Playfair Display', sans-serif;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo principal{ 
+   text-align: left;
+   width: 100%;
+   font-size: 26px;
+}
+
+.titulo-principal span{
+    color: var(--rosa);
+}
+
+.botao{
+    font-family: "Playfair Display", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 16px;
+    align-items: center;
+    width: 100%
 }
