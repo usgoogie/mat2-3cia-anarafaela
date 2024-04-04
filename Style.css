@@ -3,7 +3,7 @@
        --verde: #ff1b82;     
        --branco: #FFFFFF;
        --botao-ativo: #f7c6df;
-       --botao-inativo: rgba(58, 55, 94, 0.5);
+       --botao-inativo: rgba(173, 55, 94, 0.5);
        --texto-fundo: rgba(58, 55, 94, 0.3); }
 body {
        background-color: var(--cor-de-fundo);
