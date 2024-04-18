@@ -49,6 +49,9 @@ body {
 }
 .botao:first-child {
        border-radius: 40px 40px 0 0;
+.abas-textos(
+    
+)
 }
    @media screen and (min-width: 768px) {
        .botoes {
