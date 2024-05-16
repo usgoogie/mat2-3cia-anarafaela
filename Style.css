@@ -53,11 +53,6 @@ body {
     display: block;
 }
 
-.botao.ativo{
-    background-color: var(--texto-fundo);
-    border-bottom: 4px solid var(--verde);
-}
-
 .abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
