@@ -48,20 +48,21 @@ body {
 }
 .botao:first-child {
     border-radius: 40px 40px 0 0;
-
+}
 .botao{
     display: block;
+}
 
 .botao.ativo{
     background-color: var(--texto-fundo);
     border-bottom: 4px solid var(--verde);
 }
-}
-.abas-textos(
+
+.abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
-)
+}
 
 .aba.conteudo.ativo{
     display: block;
@@ -81,7 +82,6 @@ body {
 }
 
 
-}
    @media screen and (min-width: 768px) {
        .botoes {
            display: flex;
